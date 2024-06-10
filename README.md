@@ -21,7 +21,7 @@ CSS: Used for styling and layout.
 # How to Use
 Clone the Repository:
 
-git clone https://github.com/your-username/micro-project-2.git
+git clone https://github.com/Alkasavarn02/micro-project-2.git
 
 # Open the Project:
 Open the index.html file in your web browser to view the project.
