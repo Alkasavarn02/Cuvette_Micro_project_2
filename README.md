@@ -1,4 +1,3 @@
-# Cuvette_Micro_project_2
 # Micro Project 2
 This repository contains the source code for Micro Project 2, a web project showcasing various features and components including a header, navigation bar, banner section, social icons, card section, and footer.
 
