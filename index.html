@@ -3,116 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Micro_Project_2</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="d-flex justify-between align-center header">
-        <div class="logo">Dapper</div>
-
-        <nav class="d-flex navbar">
-            <ul class="d-flex">
-                <li><a href="#" class="link">Home</a></li>
-                <li><a href="#" class="link">About Us</a></li>
-                <li><a href="#" class="link">Information</a></li>
-                <li><a href="#" class="link">More</a></li>
-            </ul> 
-            
-            <div class="d-flex search">
-                <input type="text" placeholder="Search..." />
-
-                <div class="cursor-pointer serach-icon">
-                    <img src="./search.svg" alt="Search Icon" />
+    <header class="header">
+        <nav class="dflex">
+            <h1 class="section1">dappr</h1>
+            <div class="dflex section2">
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Information</p>
+                <div class="dflex gap-3">
+                    <p>More</p>
+                    <div class="ImgContainer"><img src="./assests/Vector.png" alt="dropIcon" srcset=""></div>
+                </div>
+                <div class="dflex searchBar">
+                    <p>Search....</p>
+                    <div class="ImgContainer"><img src="./assests/search.png" alt="SearchIcon"></div>
                 </div>
             </div>
+            <div class="section3">
+                <img src="./assests/Vector (1).png" alt="burgerIcon" srcset="">
+            </div>
         </nav>
-
-        <div class="cursor-pointer menu">
-            <img src="./hamburger.png" alt="Hamburger Menu Icon" />
-        </div>
     </header>
-
-    <main>
-        <section class="d-flex justify-between align-center mt-60 banner-section">
-            <div class="banner-img">
-                <img src="./bannerImage.png" alt="Code written on PC">
+    <main class="dflex flexdirection-Column">
+        <div class="section1 dflex">
+            <div class="bannerImgContainer">
+                <img src="./assests/image 4.png" alt="BannerImage" srcset="">
             </div>
-
-            <div class="right-text">
-                It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......
-            </div>
-        </section>
-        <div class="cursor-pointer d-flex side-icons">
-            <div class="icon whats-app-icon">
-                <img src="./whats-app.svg" alt="Whats App Icon">
-            </div>
-
-            <div class="icon fb-icon">
-                <img src="./fb.svg" alt="Facebook Icon">
-            </div>
-
-            <div class="icon twitter-icon">
-                <img src="./twitter.svg" alt="Twitter Icon">
-            </div>
+            <p>It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......</p>
         </div>
-        <section class=" d-flex justify-between mt-60 card-section">
-            <div class="d-flex box card-1">
+        <div class="section2 dflex">
+            <div class="cardContainer1 additionalCssProperties">
                 <p>Total Question’s</p>
                 <p>200,000</p>
             </div>
-            <div class="d-flex box card-2">
+            <div class="cardContainer2 additionalCssProperties">
                 <p>Total Answer’s</p>
                 <p>105,000</p>
             </div>
-            <div class="d-flex box card-3">
+            <div class="cardContainer3 additionalCssProperties">
                 <p>Participated</p>
                 <p>10,000</p>
             </div>
-            <div class="d-flex box card-4">
+            <div class="cardContainer4 additionalCssProperties">
                 <p>Total Passed</p>
                 <p>6,000</p>
             </div>
-        </section>
-        <section class="d-flex mt-60 footer">
-            <div class="d-flex align-center left-textbox">
-                <div class="d-flex left-items d-left-items align-center info">YOUR INFO</div>
-                <div class="d-flex left-items d-left-items align-center bookmarks">BOOKMARKS</div>
-                <div class="d-flex left-items d-left-items align-center settings">SETTINGS</div>
+        </div>
+        <div class="section3 dflex">
+            <div class="leftsection dflex flexdirection-Column">
+                <p class="paraContainer yourInfoContainer">YOUR INFO</p>
+                <p class="paraContainer">BOOKMARKS</p>
+                <p class="paraContainer">SETTINGS</p>
             </div>
-            <div class="d-flex right-textbox">
-                <h1>Your information</h1>
-                <div class="d-flex d-right-items name">
-                    <h3>Name :</h3>
-                    <p>&nbsp;Atul Singhal</p>
-                </div>
-                <div class="d-flex d-right-items email">
-                    <h3>Email :</h3>
-                    <p>&nbsp;atul@gmail.com</p>
-                </div>
-                <div class="d-flex d-right-items phone">
-                    <h3>Phone :</h3>
-                    <p>&nbsp;+91 8131424888</p>
-                </div>
-                <div class="d-flex d-right-items marks">
-                    <h3>Marks :</h3>
-                    <p>&nbsp;500.00</p>
-                </div>
-                <button class="align-center button">Next&nbsp;&rarr;</button>
+            <div class="rightSection dflex flexdirection-Column">
+                <p class="yourInformationPara">Your information</p>
+                <p><span>Name</span> : Atul Singhal</p>
+                <p><span>Email</span> : atul@gmail.com</p>
+                <p><span>Phone</span> : +91 8131424888</p>
+                <p><span>Marks</span> : 500.00</p>
             </div>
-        </section>
-
-        <div class="cursor-pointer chatbot-icon">
-            <img src="./chat-bot.svg" alt="Chatbot Icon">
+            <button class="dflex button">
+                <p>Next</p>
+                <div class="arrowImageContainer">
+                    <img src="./assests/Arrow 1.png" alt="">
+                </div>
+            </button>
+        </div>
+        <div class="ChatbotContainer">
+            <img src="./assests/Group 2.png" alt="" srcset="">
+        </div>
+        <div class="dflex flexdirection-Column gap-3 sideIcon">
+            <div class="iconContainer">
+                <img src="./assests/logos_whatsapp-icon.png" alt="whatsAppIcon">
+            </div>
+            <div class="iconContainer">
+                <img src="./assests/fb.png" alt="facebookIcon">
+            </div>
+            <div class="iconContainer">
+                <img src="./assests/twitter.png" alt="twitterIcon" srcset="">
+            </div>
         </div>
     </main>
-
 </body>
 </html>
